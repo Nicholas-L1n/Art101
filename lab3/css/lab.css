@@ -4,7 +4,6 @@
 #content {
   background-color: black;
   width: 90vw;
-  height:100vh;
   padding: 0 5vw;
 }
 
@@ -17,7 +16,8 @@ h2{
 
 .minor-section {
   border: 2px solid white;
-  padding-left: 1vw;
+  padding: 0 1vw;
+  margin-bottom: 5vh;
 
 }
 
@@ -31,4 +31,8 @@ body {
 .photo {
   max-width: 100%;
   filter: saturate(0%);
+}
+
+.caption{
+  margin-bottom: 10vh;
 }
