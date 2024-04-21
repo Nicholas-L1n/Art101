@@ -14,7 +14,8 @@ h1,h2,h3 {
 }
 
 h2{
-  font-size: 2vw;
+  font-size: 4vh;
+  height: 0vh;
 }
 
 a{
@@ -29,10 +30,16 @@ a{
   height:100vh;
 }
 
-p, li{
+p{
   color: white;
   font-family: geliat-extralight;
   font-size: 1.25vw;
+}
+
+li{
+  color: white;
+  font-family: geliat-extralight;
+  font-size: 2vh;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
@@ -94,6 +101,10 @@ body {
 }
 
 .bentobox3 {
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
   width: 85vw;
   height: 25vh;
   border: 2px solid white;

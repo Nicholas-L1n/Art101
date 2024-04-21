@@ -11,9 +11,24 @@
 h1{
   line-height: 10vw;
 }
+h2{
+  padding: 20px 0;
+}
 
 .minor-section {
   border: 2px solid white;
   padding-left: 1vw;
 
+}
+
+body {
+  background-color: black;
+  max-width: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.photo {
+  max-width: 100%;
+  filter: saturate(0%);
 }
