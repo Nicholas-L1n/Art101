@@ -1,0 +1,84 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+.lab-section {
+  /* dimensions */
+  width: 100vw;
+  height:100vh;
+  overflow: hidden;
+}
+
+.homeButton {
+  font-size: 2vh;
+  line-height: 0vh;
+  font-family: geliat-extralight;
+  letter-spacing: 2px;
+  color: #fff;
+  text-decoration: none;
+
+  position: absolute;
+  left: auto;
+  right: 5%;
+
+  /* interaction */
+  transition: color 0.15s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+
+.homeButton:hover {
+  color: rgb(49, 49, 255);
+}
+
+.response-columns {
+  /* dimensions */
+  width: 90%;
+  height: 80%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+
+  /* display */
+  flex-flow: row;
+  display: flex;
+
+}
+
+.column {
+  width: 18%;
+  height: 100%;
+
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+
+  background-color: #fff;
+  border: 1px solid black;
+
+  filter: invert(100%);
+
+  transition: filter 0.15s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+}
+
+.column:hover {
+  filter: invert(0%);
+}
+
+.text-column-header {
+  font-size: 3vh;
+  line-height: 9vh;
+  font-family: Palmtick;
+  letter-spacing: 2px;
+  color: black;
+
+  text-align: center;
+}
+
+p {
+  color: black;
+}
+
+.labOutputText {
+  font-family: geliat-extrabold;
+}
+

@@ -1,6 +1,145 @@
 /* this css file will only style the homepage of our site */
 
-.photo {
-  max-width: 35vw;
-  filter: saturate(0%);
+.body {
+  overflow: hidden;
+
 }
+
+.homeDiv {
+  /* display */
+  flex-flow: row;
+  display: flex;
+
+  /* dimensions */
+  height: 100%;
+
+}
+
+.hero-section {
+  /* dimensions */
+  width: 100vw;
+  height:100vh;
+  overflow: hidden;
+}
+
+.bentoDivLeft {
+  /* dimensions */
+  width: 50vw;
+  height: 80%;
+  padding-left: 5%;
+  padding-right: 1.5%;
+  padding-bottom: 5%;
+
+}
+
+.bentoDivRight {
+  /* dimensions */
+  width: 50vw;
+  height: 80%;
+  padding-left: 1.5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+
+}
+
+.bentoDisplay {
+  /* display */
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* classes for deciding height between different boxes */
+.b1 {
+  height: 57.5%;
+  
+  transition: filter 0.15s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.b2 {
+  height: 37.5%;
+
+  transition: filter 0.15s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+}
+
+.b3 {
+  height: 100%;
+
+  justify-content: center !important;
+  overflow: hidden;
+
+  transition: filter 0.15s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+/* hover animations */
+.b1:hover {
+  filter: invert(100%);
+}
+
+.b2:hover {
+  filter: invert(100%);
+}
+
+
+.bentoMetaData {
+  /* dimensions */
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  align-items: center;
+  height: 0;
+
+}
+
+.bentoTextTags {
+  /* deco */
+  color: #fff;
+  background-color: #000;
+
+  /* text */
+  text-align: center;
+  font-size: 26px !important;
+  line-height: 26px !important;
+  font-family: Palmtick;
+
+
+}
+
+.t1 {
+  /* dimensions */
+  width: 100px;
+}
+
+.t2 {
+  /* dimensions */
+  width: 150px;
+}
+
+.photo {
+  /* dimensions */
+  align-self: center;
+  justify-self: center;
+  width: 150%;
+
+  /* deco */
+  filter: saturate(0%) contrast(125%);
+
+  transition: filter 0.25s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+  
+}
+
+.photo:hover {
+  filter: saturate(100%);
+}
+
+/* html tags */
+
+h1 {
+  font-size: 4vh;
+  font-family: Palmtick;
+  letter-spacing: 2px;
+}
+

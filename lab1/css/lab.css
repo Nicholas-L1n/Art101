@@ -1,6 +1,60 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+h1,h2,h3 {
+  font-family: palmtick;
+  font-size: 2vw;
+  letter-spacing: .05vw;
+  line-height: 2vw;
+
+  color: white;
+}
+
+h2{
+  font-size: 4vh;
+  height: 0vh;
+}
+
+a{
+  color: blueviolet;
+}
+/* and we can have rules that overlap other rules, both take effect */
+
+/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+#content {
+  background-color: black;
+  width: 100vw;
+  height:100vh;
+}
+
+p{
+  color: white;
+  font-family: geliat-extralight;
+  font-size: 1.25vw;
+}
+
+li{
+  color: white;
+  font-family: geliat-extralight;
+  font-size: 2vh;
+}
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+  font-family: Geliat-ExtraLight;
+  color: white;
+  background-color: black;
+
+}
+body {
+  background-color: black;
+  /* overflow:hidden; */
+}
+
+.last-section{
+  padding-bottom: 10vh !important; 
+}
+
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
