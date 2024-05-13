@@ -1,6 +1,6 @@
 // index.js - Using user input to manipulate a string
 // Author: Nicholas Lin
-// Date:April 5th 2024
+// Date:May 2024
 
 //Functions takes number from an array, divides it by 10, and returns results as an array.
 
@@ -23,6 +23,5 @@ var mapOutput = numArray.map(function(x) {
 console.log("Original array: ", numArray)
 
 console.log("Results of test function with map: ", numArray.map(mathDivide));
-
 
 console.log("Results of Anon Function as a Callback: ", mapOutput);

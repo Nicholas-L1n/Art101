@@ -1,0 +1,31 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+
+
+p {
+  color: black;
+}
+
+/* adds new styler to columns */
+.special {
+  filter: invert(100%) !important;
+  border: dashed 1px black;
+  font-weight: bold;
+}
+
+/* button styler */
+.button-challenge {
+  width: 100%;
+
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center !important;
+  text-decoration: none;
+  margin-top: 5%;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}
