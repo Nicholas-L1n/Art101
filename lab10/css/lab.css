@@ -8,14 +8,8 @@ p {
   color: black;
 }
 
-.minor-text{
-  font-size: 11px;
-  line-height: 15px;
-  margin-bottom: 10%;
-}
-
 /* button styler */
-#make-convo {
+.button {
   width: 100%;
 
   background-color: black;
@@ -28,7 +22,6 @@ p {
   cursor: pointer;
   border-radius: 8px;
 }
-
 
 /* shifts message to the right */
 .shift {
@@ -74,3 +67,8 @@ p {
 .hide {
   display: none;
 }
+
+.inputfield {
+  width: 100%;
+}
+
