@@ -143,3 +143,16 @@ h1 {
   letter-spacing: 2px;
 }
 
+/* fixes lab overflow issue */
+.labList {
+  /* display */
+  flex-flow: row;
+  display: flex;
+
+  /* dimensions */
+  height: 100%;
+}
+
+.listDivs {
+  width: 50%;
+}
