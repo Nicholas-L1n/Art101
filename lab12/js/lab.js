@@ -1,6 +1,6 @@
-// index.js - Experimenting with Jquery
+// index.js - Experimenting with COnditionals
 // Author: Nicholas Lin
-// Date:May 19th 2024
+// Date:May 28th 2024
 
 var houseSelected = ""
 
@@ -12,6 +12,7 @@ slyth = "Slytherin was founded by Salazar Slytherin. In establishing the house, 
 
 huff = "Hufflepuff was founded by the medieval witch Helga Hufflepuff. Hufflepuff is the most inclusive among the four houses; valuing hard work, dedication, patience, loyalty, and fair play rather than a particular aptitude in its members."
 
+// array for house descriptions, could be an object but I'm lazy
 houseDes = [gryff, raven, slyth, huff]
 
 
