@@ -25,8 +25,6 @@ function generateText() {
     const min = 3;
     const max= 100;
     const randLen = Math.floor(Math.random() * (max - min + 1)) + min;
-
-
     const randStart = Math.floor(Math.random() * (text.length - randLen + 1));
 
     // if else conditional on that maxes the number of "text" on the page to 5 and returns the predetermined text to the left and input field to the right
