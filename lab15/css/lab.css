@@ -28,12 +28,6 @@ p {
   width: 100%;
 }
 
-#output {
-  width: 100%;
-  margin-bottom: 20%;
-  overflow-y: scroll;
-  
-}
 
 .photo {
   max-width: 100%;

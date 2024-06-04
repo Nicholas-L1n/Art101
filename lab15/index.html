@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 15 - AJAX</title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab.js" defer></script>
+</head>
+<body class="body">
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<div class="lab-section">
+		
+		<!-- nav bar -->
+		<div class="navBar">
+			<div class="navBarContainer">
+				<a href="https://nicholas-l1n.github.io/Art101/" class="webHeader">LAB 15 - AJAX</a>
+			</div>
+
+			<a href="https://nicholas-l1n.github.io/Art101/" class="homeButton">home</a>
+
+			<div  class="line"></div>
+		</div>
+
+		<div class="response-columns">
+
+			<div id="challenge" class="column">
+				<header class="text-column-header tch1">challenge</header>
+				
+				<!-- edit here -->
+				<p>Working with your partner, experiment with jQuery and AJAX.</p>
+			</div>
+
+			<div class="column">
+				<header class="text-column-header tch2">problems</header>
+				
+				<!-- edit here -->
+				<p>No issues in Lab 15.
+				</p>
+
+			</div>
+
+			<div class="column">
+				<header class="text-column-header tch3">reflection</header>
+				
+				<!-- edit here -->
+				<p>This one definitely took a bit more work to get done. Had to go back and watch parts of the lecture because I was having some syntax issues. But afterthat no other issues persisted.</p>
+
+			</div>
+
+			<div id="results" class="column">
+				<header class="text-column-header">results</header>
+				
+				<!-- edit here -->
+
+				<p>Below is the JS from lab 15. It parses through the "move" array of objects and uses a random math function to return a "random" move name from the objects.</p>
+				<button id="activate" class="button">Generate a random move from the Pokemon API</button>
+				<div id="output"></div>
+
+				
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
