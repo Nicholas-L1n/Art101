@@ -1,0 +1,34 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+
+
+p {
+  color: black;
+}
+
+/* button styler */
+.button {
+  width: 100%;
+
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center !important;
+  text-decoration: none;
+  margin-top: 5%;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+
+.inputfield {
+  width: 100%;
+}
+
+
+.photo {
+  max-width: 100%;
+}
